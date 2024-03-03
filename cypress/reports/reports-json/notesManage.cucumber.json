@@ -1,0 +1,379 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Note Management",
+    "line": 2,
+    "id": "note-management",
+    "tags": [],
+    "uri": "notesManage.feature",
+    "elements": [
+      {
+        "id": "note-management;add-a-note-in-a-specific-category",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Add a note in a specific category",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is logged into the application",
+            "result": {
+              "status": "passed",
+              "duration": 6236000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user clicks on the Add Note button",
+            "result": {
+              "status": "passed",
+              "duration": 915000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the 'Add new note' pop-up should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user selects 'Home' from the category drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 154000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user marks the note as completed",
+            "result": {
+              "status": "passed",
+              "duration": 99000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user enters the note title",
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user enters the description",
+            "result": {
+              "status": "passed",
+              "duration": 1322000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks on the Create button",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the note should be created in the 'Home' category and marked as completed",
+            "result": {
+              "status": "passed",
+              "duration": 446000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "note-management;add-a-note-in-a-specific-category",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Add a note in a specific category",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is logged into the application",
+            "result": {
+              "status": "passed",
+              "duration": 5391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user clicks on the Add Note button",
+            "result": {
+              "status": "passed",
+              "duration": 1349000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the 'Add new note' pop-up should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user selects 'Work' from the category drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user marks the note as completed",
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user enters the note title",
+            "result": {
+              "status": "passed",
+              "duration": 324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user enters the description",
+            "result": {
+              "status": "passed",
+              "duration": 2742000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks on the Create button",
+            "result": {
+              "status": "passed",
+              "duration": 100000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the note should be created in the 'Work' category and marked as completed",
+            "result": {
+              "status": "passed",
+              "duration": 1108000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "note-management;add-a-note-in-a-specific-category",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Add a note in a specific category",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is logged into the application",
+            "result": {
+              "status": "passed",
+              "duration": 6376000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "the user clicks on the Add Note button",
+            "result": {
+              "status": "passed",
+              "duration": 995000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "the 'Add new note' pop-up should be displayed",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "the user selects 'Personal' from the category drop-down",
+            "result": {
+              "status": "passed",
+              "duration": 197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "the user marks the note as completed",
+            "result": {
+              "status": "passed",
+              "duration": 165000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "the user enters the note title",
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "the user enters the description",
+            "result": {
+              "status": "passed",
+              "duration": 2748000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "the user clicks on the Create button",
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "the note should be created in the 'Personal' category and marked as completed",
+            "result": {
+              "status": "passed",
+              "duration": 1104000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "note-management;delete-a-note",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Delete a note",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is logged into the application",
+            "result": {
+              "status": "passed",
+              "duration": 5365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "there is a note created",
+            "result": {
+              "status": "passed",
+              "duration": 1414000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "the user clicks on the 'Delete' button for the note they want to delete",
+            "result": {
+              "status": "failed",
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find content: 'note quasi' within the element: <div.card-header.fw-bold.text-truncate> but never did.\n    at Context.eval (cypress/e2e/stepDefinitions/notesSteps.cy.js:95:46)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "a confirmation pop-up should be displayed",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "the user confirms the deletion",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the note should be deleted from all categories",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
