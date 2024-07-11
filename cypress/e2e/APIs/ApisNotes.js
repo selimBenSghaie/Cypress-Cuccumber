@@ -1,4 +1,5 @@
 /// <reference types ="cypress" /> 
+import { expect } from 'chai';
 import faker from 'faker';
 
 export let titleNoteApi
@@ -35,8 +36,10 @@ export class ApiNotes {
 
     }
 
-
     
 }
+
+
+
 
 

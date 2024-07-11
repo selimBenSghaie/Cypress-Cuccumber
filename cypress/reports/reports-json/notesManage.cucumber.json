@@ -22,7 +22,7 @@
             "name": "the user is logged into the application",
             "result": {
               "status": "passed",
-              "duration": 6236000000
+              "duration": 8158000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "the user clicks on the Add Note button",
             "result": {
               "status": "passed",
-              "duration": 915000000
+              "duration": 1155000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "the 'Add new note' pop-up should be displayed",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 117000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "the user selects 'Home' from the category drop-down",
             "result": {
               "status": "passed",
-              "duration": 154000000
+              "duration": 350000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "the user marks the note as completed",
             "result": {
               "status": "passed",
-              "duration": 99000000
+              "duration": 181000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "the user enters the note title",
             "result": {
               "status": "passed",
-              "duration": 334000000
+              "duration": 471000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "the user enters the description",
             "result": {
               "status": "passed",
-              "duration": 1322000000
+              "duration": 3772000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "the user clicks on the Create button",
             "result": {
               "status": "passed",
-              "duration": 95000000
+              "duration": 379000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "the note should be created in the 'Home' category and marked as completed",
             "result": {
               "status": "passed",
-              "duration": 446000000
+              "duration": 1247000000
             }
           }
         ]
@@ -122,7 +122,7 @@
             "name": "the user is logged into the application",
             "result": {
               "status": "passed",
-              "duration": 5391000000
+              "duration": 10426000000
             }
           },
           {
@@ -131,8 +131,8 @@
             "line": 9,
             "name": "the user clicks on the Add Note button",
             "result": {
-              "status": "passed",
-              "duration": 1349000000
+              "status": "failed",
+              "error_message": "CypressError: `cy.click()` failed because it requires a DOM element.\n\nNo elements in the current DOM matched your query:\n\n  > cy.get([data-testid=\"add-new-note\"])\n    at isElement (https://practice.expandtesting.com/__cypress/runner/cypress_runner.js:145198:62)\n    at validateType (https://practice.expandtesting.com/__cypress/runner/cypress_runner.js:145056:14)\n    at Object.isType (https://practice.expandtesting.com/__cypress/runner/cypress_runner.js:145087:7)\n    at $Cy.pushSubject (https://practice.expandtesting.com/__cypress/runner/cypress_runner.js:138731:22)\n    at wrapped (https://practice.expandtesting.com/__cypress/runner/cypress_runner.js:138291:19)\nFrom Your Spec Code:\n    at MyNotesPage.clickAddNote (cypress/e2e/pageObjects/mynotespage.js:24:24)\n    at Context.eval (cypress/e2e/stepDefinitions/notesSteps.cy.js:29:16)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
@@ -141,8 +141,7 @@
             "line": 10,
             "name": "the 'Add new note' pop-up should be displayed",
             "result": {
-              "status": "passed",
-              "duration": 33000000
+              "status": "skipped"
             }
           },
           {
@@ -151,8 +150,7 @@
             "line": 11,
             "name": "the user selects 'Work' from the category drop-down",
             "result": {
-              "status": "passed",
-              "duration": 167000000
+              "status": "skipped"
             }
           },
           {
@@ -161,8 +159,7 @@
             "line": 12,
             "name": "the user marks the note as completed",
             "result": {
-              "status": "passed",
-              "duration": 117000000
+              "status": "skipped"
             }
           },
           {
@@ -171,8 +168,7 @@
             "line": 13,
             "name": "the user enters the note title",
             "result": {
-              "status": "passed",
-              "duration": 324000000
+              "status": "skipped"
             }
           },
           {
@@ -181,8 +177,7 @@
             "line": 14,
             "name": "the user enters the description",
             "result": {
-              "status": "passed",
-              "duration": 2742000000
+              "status": "skipped"
             }
           },
           {
@@ -191,8 +186,7 @@
             "line": 15,
             "name": "the user clicks on the Create button",
             "result": {
-              "status": "passed",
-              "duration": 100000000
+              "status": "skipped"
             }
           },
           {
@@ -201,8 +195,7 @@
             "line": 16,
             "name": "the note should be created in the 'Work' category and marked as completed",
             "result": {
-              "status": "passed",
-              "duration": 1108000000
+              "status": "skipped"
             }
           }
         ]
@@ -222,7 +215,7 @@
             "name": "the user is logged into the application",
             "result": {
               "status": "passed",
-              "duration": 6376000000
+              "duration": 5407000000
             }
           },
           {
@@ -232,7 +225,7 @@
             "name": "the user clicks on the Add Note button",
             "result": {
               "status": "passed",
-              "duration": 995000000
+              "duration": 724000000
             }
           },
           {
@@ -242,7 +235,7 @@
             "name": "the 'Add new note' pop-up should be displayed",
             "result": {
               "status": "passed",
-              "duration": 30000000
+              "duration": 94000000
             }
           },
           {
@@ -252,7 +245,7 @@
             "name": "the user selects 'Personal' from the category drop-down",
             "result": {
               "status": "passed",
-              "duration": 197000000
+              "duration": 304000000
             }
           },
           {
@@ -262,7 +255,7 @@
             "name": "the user marks the note as completed",
             "result": {
               "status": "passed",
-              "duration": 165000000
+              "duration": 192000000
             }
           },
           {
@@ -272,7 +265,7 @@
             "name": "the user enters the note title",
             "result": {
               "status": "passed",
-              "duration": 317000000
+              "duration": 475000000
             }
           },
           {
@@ -282,7 +275,7 @@
             "name": "the user enters the description",
             "result": {
               "status": "passed",
-              "duration": 2748000000
+              "duration": 3068000000
             }
           },
           {
@@ -292,7 +285,7 @@
             "name": "the user clicks on the Create button",
             "result": {
               "status": "passed",
-              "duration": 116000000
+              "duration": 160000000
             }
           },
           {
@@ -302,7 +295,7 @@
             "name": "the note should be created in the 'Personal' category and marked as completed",
             "result": {
               "status": "passed",
-              "duration": 1104000000
+              "duration": 366000000
             }
           }
         ]
@@ -322,7 +315,7 @@
             "name": "the user is logged into the application",
             "result": {
               "status": "passed",
-              "duration": 5365000000
+              "duration": 6595000000
             }
           },
           {
@@ -332,7 +325,7 @@
             "name": "there is a note created",
             "result": {
               "status": "passed",
-              "duration": 1414000000
+              "duration": 1262000000
             }
           },
           {
@@ -342,7 +335,7 @@
             "name": "the user clicks on the 'Delete' button for the note they want to delete",
             "result": {
               "status": "failed",
-              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find content: 'note quasi' within the element: <div.card-header.fw-bold.text-truncate> but never did.\n    at Context.eval (cypress/e2e/stepDefinitions/notesSteps.cy.js:95:46)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+              "error_message": "AssertionError: Timed out retrying after 10000ms: Expected to find content: 'note tempore' within the element: <div.card-header.fw-bold.text-truncate> but never did.\n    at Context.eval (cypress/e2e/stepDefinitions/notesSteps.cy.js:95:46)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
             }
           },
           {
